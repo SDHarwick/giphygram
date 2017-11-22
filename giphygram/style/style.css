@@ -1,0 +1,16 @@
+
+body.container {
+  padding: 3rem;
+  background-color: #EFEFEF;
+  max-width: 1000px;
+}
+
+header {
+  background: url('../icon.png') no-repeat 0 0;
+  padding: 1rem 0 0 15rem;
+  background-size: contain;
+}
+
+header h1 {
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "giphygram",
+  "authors": [
+    "Stephen Harwick <sdharwick@gmail.com>"
+  ],
+  "description": "Master Riot Project",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "https://stackacademy.tv",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "riot": "^3.7.4",
+    "milligram": "^1.3.0"
+  }
+}
