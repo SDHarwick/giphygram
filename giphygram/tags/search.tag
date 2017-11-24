@@ -1,6 +1,6 @@
 <search>
 
-  <form onsubmit={search} >
+  <form onsumbit={search} >
     <input ref="search" type="text" placeholder="Search Giphys">
   </form>
 
@@ -24,6 +24,7 @@
     }
 
   </script>
+
 
   <style>
     input::placeholder {

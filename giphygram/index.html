@@ -1,36 +1,41 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Giphygram</title>
+	<head>
+		<meta charset="utf-8">
+		<title>Giphygram</title>
 
-    <link rel="stylesheet" href="bower_components/normalize.css/normalize.css">
-    <link rel="stylesheet" href="bower_components/milligram/dist/milligram.min.css">
-    <link rel="stylesheet" href="style/style.css">
+		<link rel="stylesheet" href="bower_components/normalize.css">
+		<link rel="stylesheet" href="bower_components/milligram/dist/milligram.min.css">
+		<link rel="stylesheet" href="style/style.css">
 
-    <script src="bower_components/riot/riot+compiler.min.js"></script>
-  </head>
-  <body class="container">
-    <header>
-        <h1>Giphygram</h1>
-        <search></search>
-    </header>
+		<script src="bower_components/riot/riot+compiler.min.js"></script>
+	</head>
+	<body class="container">
+		<header>
+			<h1>Giphygram</h1>
+			<search></search>
+		</header>
 
-    <results></results>
+		<results></results>
+
+		<!-- Mixins -->
+
+		<script src="mixins/giphy.js"></script>
 
 
-    <!-- Mixins -->
-    <script src="mixins/giphy.js"></script>
+		<!-- Tags -->
+		<script src="tags/search.tag" type="riot/tag"></script>
+		<script src="tags/results.tag" type="riot/tag"></script>
+		<script src="tags/spinner.tag" type="riot/tag"></script>
+		<script src="tags/giphy.tag" type="riot/tag"></script>
 
-    <!-- Tags -->
-    <script src="tags/search.tag" type="riot/tag"></script>
-    <script src="tags/results.tag" type="riot/tag"></script>
-    <script src="tags/spinner.tag" type="riot/tag"></script>
-    <script src="tags/giphy.tag" type="riot/tag"></script>
 
-    <!-- Mount all tags -->
-    <script>
-      riot.mount('*')
-    </script>
-  </body>
+		<!-- Mount All Tags -->
+		<script>
+			riot.mount('*')
+		</script>
+
+	</body>	
 </html>
+
+
