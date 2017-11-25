@@ -1,6 +1,6 @@
 <search>
 
-  <form onsumbit={search} >
+  <form onsubmit={search} >
     <input ref="search" type="text" placeholder="Search Giphys">
   </form>
 

@@ -27,7 +27,7 @@ riot.mixin({
 
 
     //Create search url
-    let req = `${this._url}?api_key=${this._key}&q${term}`
+    let req = `${this._url}?api_key=${this._key}&q=${term}`
 
     // Create new request
     let xhr = new XMLHttpRequest()
